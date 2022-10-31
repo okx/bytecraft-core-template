@@ -2,7 +2,7 @@
 // to populate secret in CI environment instead of hardcoding
 
 module.exports = {
-    account: {
+    test: {
         mnemonic: "abstract milk alien mosquito consider swarm write outside detail faith peanut feel",
     },
 
