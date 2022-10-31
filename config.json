@@ -1,0 +1,29 @@
+{
+  "_global": {
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "count": 0
+        }
+      }
+    }
+  },
+  "mainnet": {
+    "_connection": {
+      "chainID": "enchain-66",
+      "URL": "https://exchaintmrpc.okex.org"
+    }
+  },
+  "testnet": {
+    "_connection": {
+      "chainID": "enchain-65",
+      "URL": "https://exchaintesttmrpc.okex.org"
+    }
+  },
+  "localnet": {
+    "_connection": {
+      "chainID": "exchain-67",
+      "URL": "http://localhost:26657"
+    }
+  }
+}

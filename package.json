@@ -1,0 +1,11 @@
+{
+  "name": "{{project-name}}",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@okex/wasmknife": "^0.0.1"
+  },
+  "workspaces": [],
+  "author": "{{authors}}",
+  "license": "ISC"
+}
