@@ -1,4 +1,4 @@
-import { Env, task } from "@okex/wasmknife";
+import { Env, task } from "@okexchain/wasmknife";
 import Lib from '../lib';
 
 task(async (env: Env) => {
