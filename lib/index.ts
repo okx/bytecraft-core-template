@@ -1,5 +1,5 @@
 import type { Env } from "@okexchain/wasmknife";
-import { {{client-name}} } from './clients/{{client-name}}';
+import { {{client-name}} } from './clients/{{contract-name}}';
 
 export class Lib extends {{client-name}} {
   env: Env;
