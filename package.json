@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "@okexchain/wasmknife": "^0.0.1"
+    "@okexchain/wasmknife": "^0.1.1"
   },
   "workspaces": [],
   "author": "{{authors}}",
