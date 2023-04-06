@@ -1,3 +1,3 @@
-# WasmKnife Core Template
+# ByteCraft Core Template
 
-Main WasmKnife template used as workspace directory which will have **contracts** directories that holds the code managed by the workspace. For more info about [WasmKnife check this url](https://github.com/okex/bytecraft).
+Main ByteCraft template used as workspace directory which will have **contracts** directories that holds the code managed by the workspace. For more info about [ByteCraft check this url](https://github.com/okx/bytecraft).
