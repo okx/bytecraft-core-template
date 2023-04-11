@@ -6,6 +6,15 @@
           "count": 0
         }
       }
+    },
+    "contracts": {
+	"mydapp": {
+	"instantiation": {
+        "instantiateMsg": {
+          "count": 1
+        }
+      }	
+	}	
     }
   },
   "mainnet": {
