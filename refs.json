@@ -1,0 +1,10 @@
+{
+  "testnet": {
+    "cw1-whitelist": {
+      "codeId": 576,
+      "contractAddresses": {
+        "default": "0x97430D7691071C76d6f46873af7acBD56bce11Fb"
+      }
+    }
+  }
+}

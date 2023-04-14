@@ -1,0 +1,11 @@
+{
+  "name": "my-wasm-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@okexchain/bytecraft": "^0.1.9"
+  },
+  "workspaces": [],
+  "author": "OKC <okc@okg.com>",
+  "license": "ISC"
+}

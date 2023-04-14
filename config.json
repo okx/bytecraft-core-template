@@ -1,0 +1,38 @@
+{
+  "_global": {
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "count": 0
+        }
+      }
+    },
+    "contracts": {
+	"mydapp": {
+	"instantiation": {
+        "instantiateMsg": {
+          "count": 1
+        }
+      }	
+	}	
+    }
+  },
+  "mainnet": {
+    "_connection": {
+      "chainID": "exchain-66",
+      "URL": "https://exchaintmrpc.okex.org"
+    }
+  },
+  "testnet": {
+    "_connection": {
+      "chainID": "exchain-65",
+      "URL": "http://18.167.77.79:26657"
+    }
+  },
+  "localnet": {
+    "_connection": {
+      "chainID": "exchain-67",
+      "URL": "http://localhost:26657"
+    }
+  }
+}
