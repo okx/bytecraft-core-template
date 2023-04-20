@@ -3,36 +3,108 @@
     "_base": {
       "instantiation": {
         "instantiateMsg": {
-          "count": 0
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
         }
       }
     },
     "contracts": {
-	"mydapp": {
-	"instantiation": {
-        "instantiateMsg": {
-          "count": 1
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
         }
-      }	
-	}	
+      }
     }
   },
   "mainnet": {
     "_connection": {
       "chainID": "exchain-66",
       "URL": "https://exchaintmrpc.okex.org"
+    },
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
+        }
+      }
+    },
+    "contracts": {
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
+        }
+      }
     }
   },
   "testnet": {
     "_connection": {
       "chainID": "exchain-65",
       "URL": "https://exchaintesttmrpc.okex.org"
+    },
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
+        }
+      }
+    },
+    "contracts": {
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
+        }
+      }
     }
   },
   "localnet": {
     "_connection": {
       "chainID": "exchain-67",
       "URL": "http://localhost:26657"
+    },
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
+        }
+      }
+    },
+    "contracts": {
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
+        }
+      }
     }
   }
 }
