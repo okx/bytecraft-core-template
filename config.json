@@ -23,7 +23,7 @@
       }
     }
   },
-  "mainnet": {
+  "oktc-mainnet": {
     "_connection": {
       "chainID": "exchain-66",
       "URL": "https://exchaintmrpc.okex.org"
@@ -51,7 +51,7 @@
       }
     }
   },
-  "testnet": {
+  "oktc-testnet": {
     "_connection": {
       "chainID": "exchain-65",
       "URL": "https://exchaintesttmrpc.okex.org"
@@ -79,9 +79,65 @@
       }
     }
   },
-  "localnet": {
+  "oktc-localnet": {
     "_connection": {
       "chainID": "exchain-67",
+      "URL": "http://localhost:26657"
+    },
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
+        }
+      }
+    },
+    "contracts": {
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
+        }
+      }
+    }
+  },
+  "okbc-testnet": {
+    "_connection": {
+      "chainID": "okbchaintest-195",
+      "URL": "https://okbtesttmrpc.okbchain.org"
+    },
+    "_base": {
+      "instantiation": {
+        "instantiateMsg": {
+          "admins": [
+            "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+          ],
+          "mutable": true
+        }
+      }
+    },
+    "contracts": {
+      "mydapp": {
+        "instantiation": {
+          "instantiateMsg": {
+            "admins": [
+              "0x7aB9aC66DdA0D1b8F22275262DAcACb10185CA3A"
+            ],
+            "mutable": true
+          }
+        }
+      }
+    }
+  },
+  "okbc-localnet": {
+    "_connection": {
+      "chainID": "okbchain-67",
       "URL": "http://localhost:26657"
     },
     "_base": {
